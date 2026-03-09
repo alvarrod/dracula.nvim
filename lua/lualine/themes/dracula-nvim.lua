@@ -15,7 +15,7 @@ local command = {
 }
 
 local visual = {
-   a = { fg = colors.black, bg = colors.pink, gui = 'bold' },
+   a = { fg = colors.black, bg = colors.green, gui = 'bold' },
    b = { fg = colors.pink, bg = bg },
 }
 
@@ -31,7 +31,7 @@ local replace = {
 }
 
 local insert = {
-   a = { fg = colors.black, bg = colors.green, gui = 'bold' },
+   a = { fg = colors.black, bg = colors.red, gui = 'bold' },
    b = { fg = colors.green, bg = bg },
    c = { fg = colors.white, bg = bg },
 }
@@ -44,3 +44,4 @@ return {
    replace = replace,
    insert = insert,
 }
+
