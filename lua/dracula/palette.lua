@@ -24,7 +24,7 @@
 ---@field white string
 ---@field black string
 return {
-   bg = "#282A36",
+   bg = "#000000",
    fg = "#F8F8F2",
    selection = "#44475A",
    comment = "#6272A4",
